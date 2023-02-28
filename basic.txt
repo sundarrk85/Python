@@ -4,3 +4,5 @@ git branch <newbranch>
 To change branch
 git checkout <newbranch>
 
+To view list of remote repos in Git
+git remote -v
