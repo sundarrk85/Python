@@ -4,5 +4,33 @@ git branch <newbranch>
 To change branch
 git checkout <newbranch>
 
-To view list of remote repos in Git
+To list all the remote repos associated with current repository
+git remote
+
+To view list of remote repos
 git remote -v
+
+To add remote repository
+git remote add <remote-name> <URL>
+
+To rename remote repository
+git remote rename <old-name> <new-name>
+
+To remove remote repository
+git remote remove <remote-name>
+
+To view information about remote repository (branches, tags)
+git remote show <remote-name>
+
+To fetch the changes from remote repoitory but doesn't merge changes into local branch
+git fetch <remote-name>
+
+To fetch the changes from remote repo and merges them into local branch
+git pull <remote-name> <branch-name>
+
+To push the changes into remote repo
+git push <remote-name> <branch-name>
+
+To know more about remote
+git help remote
+
