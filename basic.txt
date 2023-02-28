@@ -1,4 +1,4 @@
-To initialize git repository      ####
+To initialize git repository     
 git init
 
 To clone the remote repository
