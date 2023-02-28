@@ -1,3 +1,7 @@
+HEAD usually points to the last commit made in the branch
+but if we run - git checkout <commitID>
+it will go into "detached head state"
+
 To initialize git repository     
 git init
 
