@@ -2,6 +2,10 @@ HEAD usually points to the last commit made in the branch
 but if we run - git checkout <commitID>
 it will go into "detached head state"
 
+"git pull" command is a combination of "git fetch" + "git merge"
+
+---------------------------------------------------------------------------
+
 To initialize git repository     
 git init
 
