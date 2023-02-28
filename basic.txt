@@ -38,8 +38,11 @@ git help remote
 
 GIT BRANCH COMMANDS
 
-To view list of branches
+To view list of branches in local repository
 git branch
+
+To view list of branches in local and remote repositories
+git branch -a
 
 To create new branch 
 git branch <branch-name>
@@ -53,5 +56,14 @@ git checkout -b <branch-name>
 To merge specified branch into current branch
 git merge <branch-name>
 
+To delete the branch but the branch must be fully merged before it can be deleted
+git branch -d <branch-name>
 
+TO delete the branch even it has unmerged changes
+git branch -D <branch-name>
 
+To rename the branch
+git branch -m <new-branch-name>
+
+To view list of branches with last commit messages
+git branch -v
