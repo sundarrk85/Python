@@ -1,0 +1,6 @@
+To add branch 
+git branch <newbranch>
+
+To change branch
+git checkout <newbranch>
+
