@@ -1,3 +1,23 @@
+To initialize git repository
+git init
+
+To clone the remote repository
+git clone <remote-URL>
+
+TO view the status of the directory
+git status
+
+To view status in short format
+git status -s
+
+To view the commit history made
+git log 
+
+To view the commit history in oneline
+git log --oneline
+
+---------------------------------------------------------------------------
+
 To add branch 
 git branch <newbranch>
 
@@ -67,3 +87,5 @@ git branch -m <new-branch-name>
 
 To view list of branches with last commit messages
 git branch -v
+
+
