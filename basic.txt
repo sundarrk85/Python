@@ -36,5 +36,22 @@ git help remote
 
 ---------------------------------------------------------------------------
 
+GIT BRANCH COMMANDS
+
+To view list of branches
+git branch
+
+To create new branch 
+git branch <branch-name>
+
+To switch between specified branch
+git checkout <branch-name>
+
+To create a new branch and switches to it
+git checkout -b <branch-name>
+
+To merge specified branch into current branch
+git merge <branch-name>
+
 
 
