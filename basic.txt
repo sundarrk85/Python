@@ -4,7 +4,7 @@ git init
 To clone the remote repository
 git clone <remote-URL>
 
-TO view the status of the directory
+To view the status of the directory
 git status
 
 To view status in short format
