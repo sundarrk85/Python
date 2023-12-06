@@ -45,3 +45,8 @@ a.isdecimal()
 
 a.isdigit()
 # T if all characters are digits
+
+a.isidentifier()
+# T if str is identifier. Cannot starts with number, or contain space. Only 0-9, a-z
+
+
