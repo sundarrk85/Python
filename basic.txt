@@ -1,0 +1,99 @@
+HEAD usually points to the last commit made in the branch
+but if we run - git checkout <commitID>
+it will go into "detached head state"
+
+"git pull" command is a combination of "git fetch" + "git merge"
+
+---------------------------------------------------------------------------
+
+To initialize git repository     
+git init
+
+To clone the remote repository
+git clone <remote-URL>
+
+To view the status of the directory
+git status
+
+To view status in short format
+git status -s
+
+To view the commit history made
+git log 
+
+To view the commit history in oneline
+git log --oneline
+
+---------------------------------------------------------------------------
+
+To add branch 
+git branch <newbranch>
+
+To change branch
+git checkout <newbranch>
+
+To list all the remote repos associated with current repository
+git remote
+
+To view list of remote repos
+git remote -v
+
+To add remote repository
+git remote add <remote-name> <URL>
+
+To rename remote repository
+git remote rename <old-name> <new-name>
+
+To remove remote repository
+git remote remove <remote-name>
+
+To view information about remote repository (branches, tags)
+git remote show <remote-name>
+
+To fetch the changes from remote repoitory but doesn't merge changes into local branch
+git fetch <remote-name>
+
+To fetch the changes from remote repo and merges them into local branch
+git pull <remote-name> <branch-name>
+
+To push the changes into remote repo
+git push <remote-name> <branch-name>
+
+To know more about remote
+git help remote
+
+---------------------------------------------------------------------------
+
+GIT BRANCH COMMANDS
+
+To view list of branches in local repository
+git branch
+
+To view list of branches in local and remote repositories
+git branch -a
+
+To create new branch 
+git branch <branch-name>
+
+To switch between specified branch
+git checkout <branch-name>
+
+To create a new branch and switches to it
+git checkout -b <branch-name>
+
+To merge specified branch into current branch
+git merge <branch-name>
+
+To delete the branch but the branch must be fully merged before it can be deleted
+git branch -d <branch-name>
+
+TO delete the branch even it has unmerged changes
+git branch -D <branch-name>
+
+To rename the branch
+git branch -m <new-branch-name>
+
+To view list of branches with last commit messages
+git branch -v
+
+
